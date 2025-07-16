@@ -1,5 +1,5 @@
 **Before code**
-<!-- <div class="pricing">
+ <div class="pricing">
   <div class="card">
     <h2>Basic</h2>
     <p>$10</p>
@@ -32,14 +32,14 @@
 document.querySelector("button").addEventListener("click", () => {
   alert("Subscribed!");
 });
-</script> -->
+</script> 
 
 **AI prompt used**
 - This pricing card component has layout issues and unresponsive buttons. Help me fix the bugs, refactor it into a reusable Card(title, price, features) component, and ensure it's responsive.
 
 **After Code**
 
-<!-- <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -127,6 +127,6 @@ document.querySelector("button").addEventListener("click", () => {
   </script>
 </body>
 </html>
- -->
+
 
 
